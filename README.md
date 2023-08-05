@@ -35,6 +35,7 @@
 
 - **The pertinent corrections requested by the reviewer will be added**
 - **More animations**
+- **Any relevant corrections specified by the reviewers**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
