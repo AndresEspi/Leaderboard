@@ -14,7 +14,7 @@ const showNotification = (message) => {
 
 const getScores = async (gameId) => {
   const response = await fetch(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`
+    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
   );
   const data = await response.json();
   return data.result;
@@ -32,7 +32,7 @@ const saveScore = async (gameId, userName, userScore) => {
         user: userName,
         score: userScore,
       }),
-    }
+    },
   );
 
   const data = await response.json();
