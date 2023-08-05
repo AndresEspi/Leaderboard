@@ -5,7 +5,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Futures](#key-futures)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Clone the repository](#Clone-the-repository)
   - [Setup](#setup)
@@ -37,12 +36,6 @@
 - **The pertinent corrections requested by the reviewer will be added**
 - **More animations**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [See Live Demo](https://andresespi.github.io/animePage/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,6 +137,6 @@ I would like to thank .....
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
