@@ -1,203 +1,882 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\n\n//# sourceURL=webpack://animepage/./src/index.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/index.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
-  \*************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  margin: 0;\r\n  font-family: system-ui, sans-serif;\r\n}\r\n\r\n.header-container {\r\n  margin-bottom: 30px;\r\n  text-align: center;\r\n}\r\n\r\n.web-title {\r\n  font-size: 50px;\r\n  font-weight: 600;\r\n  margin-left: -217px;\r\n}\r\n\r\n.main-section {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: flex-start;\r\n  gap: 50px;\r\n  max-width: 1000px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.board-container {\r\n  flex: 1.5;\r\n  border: 3px solid black;\r\n  border-radius: 3px;\r\n  padding: 10px;\r\n}\r\n\r\n.board-title {\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.subtitle {\r\n  font-size: 24px;\r\n  font-weight: 600;\r\n}\r\n\r\n.button {\r\n  background-color: transparent;\r\n  border: 2px solid black;\r\n  padding: 5px 15px;\r\n  font-weight: 600;\r\n  transition: all 0.2s;\r\n  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.9);\r\n  cursor: pointer;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #efefef;\r\n}\r\n\r\n.scores {\r\n  width: 100%;\r\n}\r\n\r\n.scores-row {\r\n  padding: 5px 0;\r\n  border-bottom: 1px solid black;\r\n}\r\n\r\n.row-description {\r\n  font-weight: 600;\r\n  margin: 0;\r\n}\r\n\r\n.odd-row {\r\n  background-color: #eaeaea;\r\n}\r\n\r\n.form-container {\r\n  flex: 1;\r\n  max-width: 500px;\r\n}\r\n\r\n.add-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: 10px;\r\n  max-width: 300px;\r\n}\r\n\r\n.input-style {\r\n  padding: 5px 10px;\r\n  border: 2px solid black;\r\n  border-radius: 2px;\r\n  width: 100%;\r\n  max-width: 250px;\r\n}\r\n\r\n.add-btn {\r\n  width: fit-content;\r\n}\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://animepage/./src/index.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://animepage/./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://animepage/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
-
-/***/ }),
-
-/***/ "./src/index.css":
-/*!***********************!*\
-  !*** ./src/index.css ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./index.css */ \"./node_modules/css-loader/dist/cjs.js!./src/index.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://animepage/./src/index.css?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-/***/ ((module) => {
-
-eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n  return result;\n}\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n    identifiers.push(identifier);\n  }\n  return identifiers;\n}\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n  return updater;\n}\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n    var newLastIdentifiers = modulesToDom(newList, options);\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n      var _index = getIndexByIdentifier(_identifier);\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \********************************************************************/
-/***/ ((module) => {
-
-eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target);\n\n    // Special case to return head of iframe instead of iframe itself\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n    memo[target] = styleTarget;\n  }\n  return memo[target];\n}\n\n/* istanbul ignore next  */\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n  target.appendChild(style);\n}\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \**********************************************************************/
-/***/ ((module) => {
-
-eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \**********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \***************************************************************/
-/***/ ((module) => {
-
-eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n  var needLayer = typeof obj.layer !== \"undefined\";\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n  css += obj.css;\n  if (needLayer) {\n    css += \"}\";\n  }\n  if (obj.media) {\n    css += \"}\";\n  }\n  if (obj.supports) {\n    css += \"}\";\n  }\n  var sourceMap = obj.sourceMap;\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  }\n\n  // For old IE\n  /* istanbul ignore if  */\n  options.styleTagTransform(css, styleElement, options.options);\n}\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n  styleElement.parentNode.removeChild(styleElement);\n}\n\n/* istanbul ignore next  */\nfunction domAPI(options) {\n  if (typeof document === \"undefined\") {\n    return {\n      update: function update() {},\n      remove: function remove() {}\n    };\n  }\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \*********************************************************************/
-/***/ ((module) => {
-
-eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://animepage/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
-/******/ })()
-;
+/*! For license information please see bundle.js.LICENSE.txt */
+(() => {
+  "use strict";
+  var t = {
+      424: (t, e, n) => {
+        n.d(e, { Z: () => c });
+        var r = n(81),
+          o = n.n(r),
+          a = n(645),
+          i = n.n(a)()(o());
+        i.push([
+          t.id,
+          "body {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  margin: 0;\n  font-family: system-ui, sans-serif;\n}\n\n.header-container {\n  margin-bottom: 30px;\n  text-align: center;\n}\n\n.web-title {\n  font-size: 50px;\n  font-weight: 600;\n  margin-left: -217px;\n}\n\n.main-section {\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n  gap: 50px;\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n.board-container {\n  flex: 1.5;\n  border: 3px solid black;\n  border-radius: 3px;\n  padding: 10px;\n}\n\n.board-title {\n  display: flex;\n  justify-content: space-between;\n}\n\n.subtitle {\n  font-size: 24px;\n  font-weight: 600;\n}\n\n.button {\n  background-color: transparent;\n  border: 2px solid black;\n  padding: 5px 15px;\n  font-weight: 600;\n  transition: all 0.2s;\n  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.9);\n  cursor: pointer;\n}\n\n.button:hover {\n  background-color: #efefef;\n}\n\n.scores {\n  width: 100%;\n}\n\n.scores-row {\n  padding: 5px 0;\n  border-bottom: 1px solid black;\n}\n\n.row-description {\n  font-weight: 600;\n  margin: 0;\n}\n\n.odd-row {\n  background-color: #eaeaea;\n}\n\n.form-container {\n  flex: 1;\n  max-width: 500px;\n}\n\n.add-form {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 10px;\n  max-width: 300px;\n}\n\n.input-style {\n  padding: 5px 10px;\n  border: 2px solid black;\n  border-radius: 2px;\n  width: 100%;\n  max-width: 250px;\n}\n\n.add-btn {\n  width: fit-content;\n}\n",
+          "",
+        ]);
+        const c = i;
+      },
+      645: (t) => {
+        t.exports = function (t) {
+          var e = [];
+          return (
+            (e.toString = function () {
+              return this.map(function (e) {
+                var n = "",
+                  r = void 0 !== e[5];
+                return (
+                  e[4] && (n += "@supports (".concat(e[4], ") {")),
+                  e[2] && (n += "@media ".concat(e[2], " {")),
+                  r &&
+                    (n += "@layer".concat(
+                      e[5].length > 0 ? " ".concat(e[5]) : "",
+                      " {"
+                    )),
+                  (n += t(e)),
+                  r && (n += "}"),
+                  e[2] && (n += "}"),
+                  e[4] && (n += "}"),
+                  n
+                );
+              }).join("");
+            }),
+            (e.i = function (t, n, r, o, a) {
+              "string" == typeof t && (t = [[null, t, void 0]]);
+              var i = {};
+              if (r)
+                for (var c = 0; c < this.length; c++) {
+                  var u = this[c][0];
+                  null != u && (i[u] = !0);
+                }
+              for (var s = 0; s < t.length; s++) {
+                var l = [].concat(t[s]);
+                (r && i[l[0]]) ||
+                  (void 0 !== a &&
+                    (void 0 === l[5] ||
+                      (l[1] = "@layer"
+                        .concat(l[5].length > 0 ? " ".concat(l[5]) : "", " {")
+                        .concat(l[1], "}")),
+                    (l[5] = a)),
+                  n &&
+                    (l[2]
+                      ? ((l[1] = "@media "
+                          .concat(l[2], " {")
+                          .concat(l[1], "}")),
+                        (l[2] = n))
+                      : (l[2] = n)),
+                  o &&
+                    (l[4]
+                      ? ((l[1] = "@supports ("
+                          .concat(l[4], ") {")
+                          .concat(l[1], "}")),
+                        (l[4] = o))
+                      : (l[4] = "".concat(o))),
+                  e.push(l));
+              }
+            }),
+            e
+          );
+        };
+      },
+      81: (t) => {
+        t.exports = function (t) {
+          return t[1];
+        };
+      },
+      379: (t) => {
+        var e = [];
+        function n(t) {
+          for (var n = -1, r = 0; r < e.length; r++)
+            if (e[r].identifier === t) {
+              n = r;
+              break;
+            }
+          return n;
+        }
+        function r(t, r) {
+          for (var a = {}, i = [], c = 0; c < t.length; c++) {
+            var u = t[c],
+              s = r.base ? u[0] + r.base : u[0],
+              l = a[s] || 0,
+              f = "".concat(s, " ").concat(l);
+            a[s] = l + 1;
+            var p = n(f),
+              d = {
+                css: u[1],
+                media: u[2],
+                sourceMap: u[3],
+                supports: u[4],
+                layer: u[5],
+              };
+            if (-1 !== p) e[p].references++, e[p].updater(d);
+            else {
+              var h = o(d, r);
+              (r.byIndex = c),
+                e.splice(c, 0, { identifier: f, updater: h, references: 1 });
+            }
+            i.push(f);
+          }
+          return i;
+        }
+        function o(t, e) {
+          var n = e.domAPI(e);
+          return (
+            n.update(t),
+            function (e) {
+              if (e) {
+                if (
+                  e.css === t.css &&
+                  e.media === t.media &&
+                  e.sourceMap === t.sourceMap &&
+                  e.supports === t.supports &&
+                  e.layer === t.layer
+                )
+                  return;
+                n.update((t = e));
+              } else n.remove();
+            }
+          );
+        }
+        t.exports = function (t, o) {
+          var a = r((t = t || []), (o = o || {}));
+          return function (t) {
+            t = t || [];
+            for (var i = 0; i < a.length; i++) {
+              var c = n(a[i]);
+              e[c].references--;
+            }
+            for (var u = r(t, o), s = 0; s < a.length; s++) {
+              var l = n(a[s]);
+              0 === e[l].references && (e[l].updater(), e.splice(l, 1));
+            }
+            a = u;
+          };
+        };
+      },
+      569: (t) => {
+        var e = {};
+        t.exports = function (t, n) {
+          var r = (function (t) {
+            if (void 0 === e[t]) {
+              var n = document.querySelector(t);
+              if (
+                window.HTMLIFrameElement &&
+                n instanceof window.HTMLIFrameElement
+              )
+                try {
+                  n = n.contentDocument.head;
+                } catch (t) {
+                  n = null;
+                }
+              e[t] = n;
+            }
+            return e[t];
+          })(t);
+          if (!r)
+            throw new Error(
+              "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."
+            );
+          r.appendChild(n);
+        };
+      },
+      216: (t) => {
+        t.exports = function (t) {
+          var e = document.createElement("style");
+          return t.setAttributes(e, t.attributes), t.insert(e, t.options), e;
+        };
+      },
+      565: (t, e, n) => {
+        t.exports = function (t) {
+          var e = n.nc;
+          e && t.setAttribute("nonce", e);
+        };
+      },
+      795: (t) => {
+        t.exports = function (t) {
+          if ("undefined" == typeof document)
+            return { update: function () {}, remove: function () {} };
+          var e = t.insertStyleElement(t);
+          return {
+            update: function (n) {
+              !(function (t, e, n) {
+                var r = "";
+                n.supports && (r += "@supports (".concat(n.supports, ") {")),
+                  n.media && (r += "@media ".concat(n.media, " {"));
+                var o = void 0 !== n.layer;
+                o &&
+                  (r += "@layer".concat(
+                    n.layer.length > 0 ? " ".concat(n.layer) : "",
+                    " {"
+                  )),
+                  (r += n.css),
+                  o && (r += "}"),
+                  n.media && (r += "}"),
+                  n.supports && (r += "}");
+                var a = n.sourceMap;
+                a &&
+                  "undefined" != typeof btoa &&
+                  (r +=
+                    "\n/*# sourceMappingURL=data:application/json;base64,".concat(
+                      btoa(unescape(encodeURIComponent(JSON.stringify(a)))),
+                      " */"
+                    )),
+                  e.styleTagTransform(r, t, e.options);
+              })(e, t, n);
+            },
+            remove: function () {
+              !(function (t) {
+                if (null === t.parentNode) return !1;
+                t.parentNode.removeChild(t);
+              })(e);
+            },
+          };
+        };
+      },
+      589: (t) => {
+        t.exports = function (t, e) {
+          if (e.styleSheet) e.styleSheet.cssText = t;
+          else {
+            for (; e.firstChild; ) e.removeChild(e.firstChild);
+            e.appendChild(document.createTextNode(t));
+          }
+        };
+      },
+    },
+    e = {};
+  function n(r) {
+    var o = e[r];
+    if (void 0 !== o) return o.exports;
+    var a = (e[r] = { id: r, exports: {} });
+    return t[r](a, a.exports, n), a.exports;
+  }
+  (n.n = (t) => {
+    var e = t && t.__esModule ? () => t.default : () => t;
+    return n.d(e, { a: e }), e;
+  }),
+    (n.d = (t, e) => {
+      for (var r in e)
+        n.o(e, r) &&
+          !n.o(t, r) &&
+          Object.defineProperty(t, r, { enumerable: !0, get: e[r] });
+    }),
+    (n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e)),
+    (n.nc = void 0),
+    (() => {
+      var t = n(379),
+        e = n.n(t),
+        r = n(795),
+        o = n.n(r),
+        a = n(569),
+        i = n.n(a),
+        c = n(565),
+        u = n.n(c),
+        s = n(216),
+        l = n.n(s),
+        f = n(589),
+        p = n.n(f),
+        d = n(424),
+        h = {};
+      function v(t) {
+        return (
+          (v =
+            "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
+              ? function (t) {
+                  return typeof t;
+                }
+              : function (t) {
+                  return t &&
+                    "function" == typeof Symbol &&
+                    t.constructor === Symbol &&
+                    t !== Symbol.prototype
+                    ? "symbol"
+                    : typeof t;
+                }),
+          v(t)
+        );
+      }
+      function y() {
+        y = function () {
+          return t;
+        };
+        var t = {},
+          e = Object.prototype,
+          n = e.hasOwnProperty,
+          r =
+            Object.defineProperty ||
+            function (t, e, n) {
+              t[e] = n.value;
+            },
+          o = "function" == typeof Symbol ? Symbol : {},
+          a = o.iterator || "@@iterator",
+          i = o.asyncIterator || "@@asyncIterator",
+          c = o.toStringTag || "@@toStringTag";
+        function u(t, e, n) {
+          return (
+            Object.defineProperty(t, e, {
+              value: n,
+              enumerable: !0,
+              configurable: !0,
+              writable: !0,
+            }),
+            t[e]
+          );
+        }
+        try {
+          u({}, "");
+        } catch (t) {
+          u = function (t, e, n) {
+            return (t[e] = n);
+          };
+        }
+        function s(t, e, n, o) {
+          var a = e && e.prototype instanceof p ? e : p,
+            i = Object.create(a.prototype),
+            c = new O(o || []);
+          return r(i, "_invoke", { value: L(t, n, c) }), i;
+        }
+        function l(t, e, n) {
+          try {
+            return { type: "normal", arg: t.call(e, n) };
+          } catch (t) {
+            return { type: "throw", arg: t };
+          }
+        }
+        t.wrap = s;
+        var f = {};
+        function p() {}
+        function d() {}
+        function h() {}
+        var m = {};
+        u(m, a, function () {
+          return this;
+        });
+        var g = Object.getPrototypeOf,
+          x = g && g(g(T([])));
+        x && x !== e && n.call(x, a) && (m = x);
+        var b = (h.prototype = p.prototype = Object.create(m));
+        function w(t) {
+          ["next", "throw", "return"].forEach(function (e) {
+            u(t, e, function (t) {
+              return this._invoke(e, t);
+            });
+          });
+        }
+        function E(t, e) {
+          function o(r, a, i, c) {
+            var u = l(t[r], t, a);
+            if ("throw" !== u.type) {
+              var s = u.arg,
+                f = s.value;
+              return f && "object" == v(f) && n.call(f, "__await")
+                ? e.resolve(f.__await).then(
+                    function (t) {
+                      o("next", t, i, c);
+                    },
+                    function (t) {
+                      o("throw", t, i, c);
+                    }
+                  )
+                : e.resolve(f).then(
+                    function (t) {
+                      (s.value = t), i(s);
+                    },
+                    function (t) {
+                      return o("throw", t, i, c);
+                    }
+                  );
+            }
+            c(u.arg);
+          }
+          var a;
+          r(this, "_invoke", {
+            value: function (t, n) {
+              function r() {
+                return new e(function (e, r) {
+                  o(t, n, e, r);
+                });
+              }
+              return (a = a ? a.then(r, r) : r());
+            },
+          });
+        }
+        function L(t, e, n) {
+          var r = "suspendedStart";
+          return function (o, a) {
+            if ("executing" === r)
+              throw new Error("Generator is already running");
+            if ("completed" === r) {
+              if ("throw" === o) throw a;
+              return { value: void 0, done: !0 };
+            }
+            for (n.method = o, n.arg = a; ; ) {
+              var i = n.delegate;
+              if (i) {
+                var c = j(i, n);
+                if (c) {
+                  if (c === f) continue;
+                  return c;
+                }
+              }
+              if ("next" === n.method) n.sent = n._sent = n.arg;
+              else if ("throw" === n.method) {
+                if ("suspendedStart" === r) throw ((r = "completed"), n.arg);
+                n.dispatchException(n.arg);
+              } else "return" === n.method && n.abrupt("return", n.arg);
+              r = "executing";
+              var u = l(t, e, n);
+              if ("normal" === u.type) {
+                if (
+                  ((r = n.done ? "completed" : "suspendedYield"), u.arg === f)
+                )
+                  continue;
+                return { value: u.arg, done: n.done };
+              }
+              "throw" === u.type &&
+                ((r = "completed"), (n.method = "throw"), (n.arg = u.arg));
+            }
+          };
+        }
+        function j(t, e) {
+          var n = e.method,
+            r = t.iterator[n];
+          if (void 0 === r)
+            return (
+              (e.delegate = null),
+              ("throw" === n &&
+                t.iterator.return &&
+                ((e.method = "return"),
+                (e.arg = void 0),
+                j(t, e),
+                "throw" === e.method)) ||
+                ("return" !== n &&
+                  ((e.method = "throw"),
+                  (e.arg = new TypeError(
+                    "The iterator does not provide a '" + n + "' method"
+                  )))),
+              f
+            );
+          var o = l(r, t.iterator, e.arg);
+          if ("throw" === o.type)
+            return (
+              (e.method = "throw"), (e.arg = o.arg), (e.delegate = null), f
+            );
+          var a = o.arg;
+          return a
+            ? a.done
+              ? ((e[t.resultName] = a.value),
+                (e.next = t.nextLoc),
+                "return" !== e.method &&
+                  ((e.method = "next"), (e.arg = void 0)),
+                (e.delegate = null),
+                f)
+              : a
+            : ((e.method = "throw"),
+              (e.arg = new TypeError("iterator result is not an object")),
+              (e.delegate = null),
+              f);
+        }
+        function k(t) {
+          var e = { tryLoc: t[0] };
+          1 in t && (e.catchLoc = t[1]),
+            2 in t && ((e.finallyLoc = t[2]), (e.afterLoc = t[3])),
+            this.tryEntries.push(e);
+        }
+        function S(t) {
+          var e = t.completion || {};
+          (e.type = "normal"), delete e.arg, (t.completion = e);
+        }
+        function O(t) {
+          (this.tryEntries = [{ tryLoc: "root" }]),
+            t.forEach(k, this),
+            this.reset(!0);
+        }
+        function T(t) {
+          if (t) {
+            var e = t[a];
+            if (e) return e.call(t);
+            if ("function" == typeof t.next) return t;
+            if (!isNaN(t.length)) {
+              var r = -1,
+                o = function e() {
+                  for (; ++r < t.length; )
+                    if (n.call(t, r)) return (e.value = t[r]), (e.done = !1), e;
+                  return (e.value = void 0), (e.done = !0), e;
+                };
+              return (o.next = o);
+            }
+          }
+          return { next: _ };
+        }
+        function _() {
+          return { value: void 0, done: !0 };
+        }
+        return (
+          (d.prototype = h),
+          r(b, "constructor", { value: h, configurable: !0 }),
+          r(h, "constructor", { value: d, configurable: !0 }),
+          (d.displayName = u(h, c, "GeneratorFunction")),
+          (t.isGeneratorFunction = function (t) {
+            var e = "function" == typeof t && t.constructor;
+            return (
+              !!e &&
+              (e === d || "GeneratorFunction" === (e.displayName || e.name))
+            );
+          }),
+          (t.mark = function (t) {
+            return (
+              Object.setPrototypeOf
+                ? Object.setPrototypeOf(t, h)
+                : ((t.__proto__ = h), u(t, c, "GeneratorFunction")),
+              (t.prototype = Object.create(b)),
+              t
+            );
+          }),
+          (t.awrap = function (t) {
+            return { __await: t };
+          }),
+          w(E.prototype),
+          u(E.prototype, i, function () {
+            return this;
+          }),
+          (t.AsyncIterator = E),
+          (t.async = function (e, n, r, o, a) {
+            void 0 === a && (a = Promise);
+            var i = new E(s(e, n, r, o), a);
+            return t.isGeneratorFunction(n)
+              ? i
+              : i.next().then(function (t) {
+                  return t.done ? t.value : i.next();
+                });
+          }),
+          w(b),
+          u(b, c, "Generator"),
+          u(b, a, function () {
+            return this;
+          }),
+          u(b, "toString", function () {
+            return "[object Generator]";
+          }),
+          (t.keys = function (t) {
+            var e = Object(t),
+              n = [];
+            for (var r in e) n.push(r);
+            return (
+              n.reverse(),
+              function t() {
+                for (; n.length; ) {
+                  var r = n.pop();
+                  if (r in e) return (t.value = r), (t.done = !1), t;
+                }
+                return (t.done = !0), t;
+              }
+            );
+          }),
+          (t.values = T),
+          (O.prototype = {
+            constructor: O,
+            reset: function (t) {
+              if (
+                ((this.prev = 0),
+                (this.next = 0),
+                (this.sent = this._sent = void 0),
+                (this.done = !1),
+                (this.delegate = null),
+                (this.method = "next"),
+                (this.arg = void 0),
+                this.tryEntries.forEach(S),
+                !t)
+              )
+                for (var e in this)
+                  "t" === e.charAt(0) &&
+                    n.call(this, e) &&
+                    !isNaN(+e.slice(1)) &&
+                    (this[e] = void 0);
+            },
+            stop: function () {
+              this.done = !0;
+              var t = this.tryEntries[0].completion;
+              if ("throw" === t.type) throw t.arg;
+              return this.rval;
+            },
+            dispatchException: function (t) {
+              if (this.done) throw t;
+              var e = this;
+              function r(n, r) {
+                return (
+                  (i.type = "throw"),
+                  (i.arg = t),
+                  (e.next = n),
+                  r && ((e.method = "next"), (e.arg = void 0)),
+                  !!r
+                );
+              }
+              for (var o = this.tryEntries.length - 1; o >= 0; --o) {
+                var a = this.tryEntries[o],
+                  i = a.completion;
+                if ("root" === a.tryLoc) return r("end");
+                if (a.tryLoc <= this.prev) {
+                  var c = n.call(a, "catchLoc"),
+                    u = n.call(a, "finallyLoc");
+                  if (c && u) {
+                    if (this.prev < a.catchLoc) return r(a.catchLoc, !0);
+                    if (this.prev < a.finallyLoc) return r(a.finallyLoc);
+                  } else if (c) {
+                    if (this.prev < a.catchLoc) return r(a.catchLoc, !0);
+                  } else {
+                    if (!u)
+                      throw new Error("try statement without catch or finally");
+                    if (this.prev < a.finallyLoc) return r(a.finallyLoc);
+                  }
+                }
+              }
+            },
+            abrupt: function (t, e) {
+              for (var r = this.tryEntries.length - 1; r >= 0; --r) {
+                var o = this.tryEntries[r];
+                if (
+                  o.tryLoc <= this.prev &&
+                  n.call(o, "finallyLoc") &&
+                  this.prev < o.finallyLoc
+                ) {
+                  var a = o;
+                  break;
+                }
+              }
+              a &&
+                ("break" === t || "continue" === t) &&
+                a.tryLoc <= e &&
+                e <= a.finallyLoc &&
+                (a = null);
+              var i = a ? a.completion : {};
+              return (
+                (i.type = t),
+                (i.arg = e),
+                a
+                  ? ((this.method = "next"), (this.next = a.finallyLoc), f)
+                  : this.complete(i)
+              );
+            },
+            complete: function (t, e) {
+              if ("throw" === t.type) throw t.arg;
+              return (
+                "break" === t.type || "continue" === t.type
+                  ? (this.next = t.arg)
+                  : "return" === t.type
+                  ? ((this.rval = this.arg = t.arg),
+                    (this.method = "return"),
+                    (this.next = "end"))
+                  : "normal" === t.type && e && (this.next = e),
+                f
+              );
+            },
+            finish: function (t) {
+              for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                var n = this.tryEntries[e];
+                if (n.finallyLoc === t)
+                  return this.complete(n.completion, n.afterLoc), S(n), f;
+              }
+            },
+            catch: function (t) {
+              for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                var n = this.tryEntries[e];
+                if (n.tryLoc === t) {
+                  var r = n.completion;
+                  if ("throw" === r.type) {
+                    var o = r.arg;
+                    S(n);
+                  }
+                  return o;
+                }
+              }
+              throw new Error("illegal catch attempt");
+            },
+            delegateYield: function (t, e, n) {
+              return (
+                (this.delegate = { iterator: T(t), resultName: e, nextLoc: n }),
+                "next" === this.method && (this.arg = void 0),
+                f
+              );
+            },
+          }),
+          t
+        );
+      }
+      function m(t, e, n, r, o, a, i) {
+        try {
+          var c = t[a](i),
+            u = c.value;
+        } catch (t) {
+          return void n(t);
+        }
+        c.done ? e(u) : Promise.resolve(u).then(r, o);
+      }
+      function g(t) {
+        return function () {
+          var e = this,
+            n = arguments;
+          return new Promise(function (r, o) {
+            var a = t.apply(e, n);
+            function i(t) {
+              m(a, r, o, i, c, "next", t);
+            }
+            function c(t) {
+              m(a, r, o, i, c, "throw", t);
+            }
+            i(void 0);
+          });
+        };
+      }
+      (h.styleTagTransform = p()),
+        (h.setAttributes = u()),
+        (h.insert = i().bind(null, "head")),
+        (h.domAPI = o()),
+        (h.insertStyleElement = l()),
+        e()(d.Z, h),
+        d.Z && d.Z.locals && d.Z.locals;
+      var x = (function () {
+          var t = g(
+            y().mark(function t(e) {
+              var n, r;
+              return y().wrap(function (t) {
+                for (;;)
+                  switch ((t.prev = t.next)) {
+                    case 0:
+                      return (
+                        (t.next = 2),
+                        fetch(
+                          "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/".concat(
+                            e,
+                            "/scores/"
+                          )
+                        )
+                      );
+                    case 2:
+                      return (n = t.sent), (t.next = 5), n.json();
+                    case 5:
+                      return (r = t.sent), t.abrupt("return", r.result);
+                    case 7:
+                    case "end":
+                      return t.stop();
+                  }
+              }, t);
+            })
+          );
+          return function (e) {
+            return t.apply(this, arguments);
+          };
+        })(),
+        b = (function () {
+          var t = g(
+            y().mark(function t(e, n, r) {
+              var o, a;
+              return y().wrap(function (t) {
+                for (;;)
+                  switch ((t.prev = t.next)) {
+                    case 0:
+                      return (
+                        (t.next = 2),
+                        fetch(
+                          "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/".concat(
+                            e,
+                            "/scores/"
+                          ),
+                          {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ user: n, score: r }),
+                          }
+                        )
+                      );
+                    case 2:
+                      return (o = t.sent), (t.next = 5), o.json();
+                    case 5:
+                      return (a = t.sent), t.abrupt("return", a.result);
+                    case 7:
+                    case "end":
+                      return t.stop();
+                  }
+              }, t);
+            })
+          );
+          return function (e, n, r) {
+            return t.apply(this, arguments);
+          };
+        })(),
+        w = "GameByLuis";
+      document.getElementById("refresh-btn").addEventListener(
+        "click",
+        g(
+          y().mark(function t() {
+            var e, n;
+            return y().wrap(function (t) {
+              for (;;)
+                switch ((t.prev = t.next)) {
+                  case 0:
+                    return (t.next = 2), x(w);
+                  case 2:
+                    (e = t.sent),
+                      ((n = document.getElementById("scores")).innerHTML = ""),
+                      e.forEach(function (t) {
+                        var r = document.createElement("div");
+                        r.classList.add("scores-row"),
+                          e.indexOf(t) % 2 == 1 && r.classList.add("odd-row");
+                        var o = document.createElement("p");
+                        o.classList.add("row-description"),
+                          (o.textContent = ""
+                            .concat(t.user, ": ")
+                            .concat(t.score)),
+                          r.appendChild(o),
+                          n.appendChild(r);
+                      });
+                  case 6:
+                  case "end":
+                    return t.stop();
+                }
+            }, t);
+          })
+        )
+      ),
+        document.getElementById("add-form").addEventListener(
+          "submit",
+          (function () {
+            var t = g(
+              y().mark(function t(e) {
+                var n, r, o, a;
+                return y().wrap(function (t) {
+                  for (;;)
+                    switch ((t.prev = t.next)) {
+                      case 0:
+                        if (
+                          (e.preventDefault(),
+                          (n = document.getElementById("name")),
+                          (r = document.getElementById("score")),
+                          (o = n.value),
+                          (a = parseInt(r.value, 10)),
+                          !(Number.isNaN(a) || a <= 0))
+                        ) {
+                          t.next = 8;
+                          break;
+                        }
+                        return (
+                          alert("Please enter a valid score."),
+                          t.abrupt("return")
+                        );
+                      case 8:
+                        return (t.next = 10), b(w, o, a);
+                      case 10:
+                        (n.value = ""),
+                          (r.value = ""),
+                          console.log("Score submitted successfully!");
+                      case 13:
+                      case "end":
+                        return t.stop();
+                    }
+                }, t);
+              })
+            );
+            return function (e) {
+              return t.apply(this, arguments);
+            };
+          })()
+        );
+    })();
+})();
